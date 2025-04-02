@@ -1,0 +1,6 @@
+1. Customer Reported Issues are documented in "Customer Issues Google Sheet" 
+   Link : https://docs.google.com/spreadsheets/d/1kD3SFA15EbD6Hvn7nmFBV0EPawsFKRTORAvTJWvPjd4/edit?gid=0#gid=0
+2. Authorization Key file key_auth.json requiered for api authentication is not inclueded, 
+3. The python program will fetch data from the above google sheet, categorize customer wise Reported,pending and resolved issues, 
+4. An email will be sent to respective customers with issues status, every time Program is executed.
+5. Windows Task Scheduler is used to Schedule Running of the Python Program, 
