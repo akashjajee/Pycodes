@@ -7,7 +7,7 @@ def SendMail(receiver_email,IssueTotal,IssuePending,IssueResolved):
     current_date = datetime.now()
     duration=current_date.strftime("%B")
     sender_email = "akashjajee81@gmail.com"
-    password = "utcybzhhzylqsctg"
+    password = "*******************"
     # Recipient's email
     #receiver_email = "akash.jajee@healthgraph.in"
 
